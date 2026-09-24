@@ -296,7 +296,17 @@ a {
     font-family: 'Manrope', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.exp-details h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .exp-details p {
