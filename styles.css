@@ -223,16 +223,24 @@ a {
     background: var(--text-primary);
 }
 
-/* About Section */
 .about {
     padding: 10rem 4vw;
     border-top: 1px solid var(--border);
 }
 
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8rem;
+.about-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experience {
+    padding: 2rem 4vw 10rem;
+}
+
+.experience-list {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .about h2, .work h2 {
